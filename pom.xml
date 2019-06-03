@@ -4,7 +4,7 @@
 
 	<groupId>io.github.hcoona</groupId>
 	<artifactId>liquibase-hibernate5</artifactId>
-	<version>3.7-SNAPSHOT</version>
+	<version>3.7</version>
 
 	<name>Liquibase Hibernate Integration</name>
 	<description>Liquibase extension for hibernate integration including generating changesets based on changed
@@ -32,6 +32,7 @@
         <connection>scm:git:git@github.com:hcoona/liquibase-hibernate.git</connection>
         <url>scm:git:https://github.com/hcoona/liquibase-hibernate.git</url>
         <developerConnection>scm:git:git@github.com:hcoona/liquibase-hibernate.git</developerConnection>
+		 <tag>liquibase-hibernate5-3.7-patched</tag>
   </scm>
 
 	<developers>
