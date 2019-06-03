@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.liquibase.ext</groupId>
+	<groupId>io.github.hcoona</groupId>
 	<artifactId>liquibase-hibernate5</artifactId>
-	<version>3.7</version>
+	<version>3.7-SNAPSHOT</version>
 
 	<name>Liquibase Hibernate Integration</name>
 	<description>Liquibase extension for hibernate integration including generating changesets based on changed
@@ -25,14 +25,13 @@
 	</licenses>
 
 	<issueManagement>
-		<url>https://github.com/liquibase/liquibase-hibernate/issues</url>
+		<url>https://github.com/hcoona/liquibase-hibernate/issues</url>
 	</issueManagement>
 
    <scm>
-        <connection>scm:git:git@github.com:liquibase/liquibase-hibernate.git</connection>
-        <url>scm:git:https://github.com/liquibase/liquibase-hibernate.git</url>
-        <developerConnection>scm:git:git@github.com:liquibase/liquibase-hibernate.git</developerConnection>
-      <tag>liquibase-hibernate5-3.7</tag>
+        <connection>scm:git:git@github.com:hcoona/liquibase-hibernate.git</connection>
+        <url>scm:git:https://github.com/hcoona/liquibase-hibernate.git</url>
+        <developerConnection>scm:git:git@github.com:hcoona/liquibase-hibernate.git</developerConnection>
   </scm>
 
 	<developers>
@@ -64,6 +63,16 @@
 				<role>architect</role>
 				<role>developer</role>
 			</roles>
+		</developer>
+		<developer>
+			<id>hcoona</id>
+			<name>Shuai Zhang</name>
+			<email>zhangshuai.ustc@gmail.com</email>
+			<url>http://hcoona.github.io/</url>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>8</timezone>
 		</developer>
 	</developers>
 
