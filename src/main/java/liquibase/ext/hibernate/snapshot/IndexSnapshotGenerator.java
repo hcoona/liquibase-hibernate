@@ -29,7 +29,7 @@ public class IndexSnapshotGenerator extends HibernateSnapshotGenerator {
         while (indexIterator.hasNext()) {
             org.hibernate.mapping.Index hibernateIndex = indexIterator.next();
             Index index = new Index();
-            index.setTable(table);
+            index.setRelation(table);
             index.setName(hibernateIndex.getName());
             index.setUnique(isUniqueIndex(hibernateIndex));
             Iterator<org.hibernate.mapping.Column> columnIterator = hibernateIndex.getColumnIterator();
